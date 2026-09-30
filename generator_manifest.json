@@ -1,0 +1,22 @@
+{
+  "generatorVersion": "1.1.8",
+  "modName": "Dream Shield over Three Wishes",
+  "author": "Zyga",
+  "generatedAt": "2026-09-29T13:15:47-06:00",
+  "replacements": [
+    {
+      "TargetId": "three_wishes",
+      "SourceId": "sora_dream_shield",
+      "MatchLength": true,
+      "CustomStats": false,
+      "Stats": {
+        "Strength": 6,
+        "MP": 0,
+        "CritRateRaw": 20,
+        "CritBonus": 0,
+        "Recoil": 60,
+        "Reach": -3.8
+      }
+    }
+  ]
+}

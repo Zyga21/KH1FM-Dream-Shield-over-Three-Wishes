@@ -1,0 +1,158 @@
+title: 'Dream Shield over Three Wishes'
+originalAuthor: 'Zyga'
+description: |-
+  Replaces the following Keyblades:
+  
+  Dream Shield -> Three Wishes [match length]
+game: kh1
+
+assets:
+  # Dream Shield -> Three Wishes
+  - method: copy
+    name: raw/xw_ex_5030.wpn
+    package: kh1_first
+    source:
+      - name: files/raw/sora_dream_shield.wpn
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011464.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011344.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011465.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011345.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011466.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011346.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011467.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011347.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011468.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011348.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011469.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011349.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011470.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011350.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011471.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011351.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011472.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011352.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011473.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011353.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011474.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011354.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011475.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011355.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011476.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011356.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011477.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011357.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011478.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011358.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011479.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011359.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011480.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011360.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011481.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011361.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011485.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011365.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011486.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011366.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011490.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011370.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011491.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011371.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011492.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011372.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011495.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011375.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011496.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011376.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011497.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011377.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5030.se/se011498.win32.scd
+    source:
+      - name: files/sounds/sora_dream_shield/se011378.win32.scd
+
+  # Combined gameplay-data edits
+  - method: copy
+    name: btltbl.bin
+    package: kh1_first
+    source:
+      - name: files/btltbl.bin
+
